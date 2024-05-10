@@ -27,6 +27,8 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->registration()
+            ->brandName('Quartel General - RS')
             ->colors([
                 'primary' => Color::Amber,
             ])
